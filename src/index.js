@@ -1,5 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import App from './App';
+import { Router, Route, browserHistory } from 'react-router'
+import './styles/simple-grid.css'
+import './style/index.css'
 
-ReactDOM.render(<App />, document.getElementById('app'));
+import Home from './pages/home.js';
+
+const routes = (
+    <Router history={browserHistory}>
+        <Route path="/" component={Home}/>
+        <Route path="*" component={Home}/>
+    </Router>
+)
+
+ReactDOM.render(routes, document.getElementById('app'));
