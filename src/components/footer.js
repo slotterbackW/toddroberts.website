@@ -1,7 +1,13 @@
 import React from 'react'
 
+import './../styles/footer.css'
+
 export default class Footer extends React.Component {
     render() {
-        return <p>FOOOTER</p>
+        return (
+            <div className="row footer">
+                <p>The footer</p>
+            </div>
+        )
     }
 }

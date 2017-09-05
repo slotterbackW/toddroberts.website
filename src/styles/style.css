@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column; 
+}
+
+.title-container {
+    margin-bottom: 0.67em; 
+}
+
+.title-container h1 {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin: 0;
+    font-style: italic;
+}
+
+.vertical-seperator {
+    border-right: 1px solid #273E47;
+    margin: 10px;
+}
+
+img {
+    margin: 0.67rem 0;
+    align-self: center;
+}
