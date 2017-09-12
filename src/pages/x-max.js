@@ -6,6 +6,12 @@ import Footer from './../components/footer.js'
 
 import MaxMadden from './../assets/Max Playing Madden_1920.jpg'
 import XMaxTeam from './../assets/XMax Team_1920.jpg'
+import XMaxAssembly from './../assets/XMAX full Assembly.JPG'
+import XMaxAssembly2 from './../assets/XMAX full Assembly 2.JPG'
+import XMaxAssembly3 from './../assets/XMAX button Assembly 3.JPG'
+import XMaxAssembly4 from './../assets/XMAX button Assembly 4.JPG'
+
+import Carousel from 'nuka-carousel'
 
 export default class XMax extends Component {
   render() {
