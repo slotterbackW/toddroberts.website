@@ -23,7 +23,7 @@ export default class FITBoard extends Component {
         <p>We are currently working on version 2 of the FITBoard. The main mechanical update is an increase in flexibility of size. With the newer version therapists will be able to provide the patient with up to double the amount of game space, allowing them to give the patient more complex tasks. They will also be able to fold the board into any variation of smaller sizes and the board will still be functional. For more information about FITBoard or Northeastern's ReGame-VR Lab please visit these respective links: </p>
         <a href="https://fitboardneu.wordpress.com/">https://fitboardneu.wordpress.com/</a>
         <a href="http://www.northeastern.edu/regamevrlab/">http://www.northeastern.edu/regamevrlab/</a>
-        <h2 id="CADsample">CAD</h2>
+        <h2 id="CAD">CAD</h2>
         <p>This is the CAD model I created for version 2 of the FITBoard. The motion study demonstrates the adjustability and storage capabilities of the new version.</p>
         <img src={FITBoardCAD} width="90%"/>
       </div>

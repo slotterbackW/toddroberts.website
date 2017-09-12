@@ -27,9 +27,9 @@ export default class Nav extends React.Component {
                     <p><Link to="/Projects/TR-6">Triumph TR-6</Link></p>
                 </Collapsible>
                 <Collapsible trigger="CAD Samples">
-                    <p><Link to="/Enabling_Engineering/X-Max#CADsample">X-Max</Link></p>
-                    <p><Link to="/Enabling_Engineering/FITBoard#CADsample">FITBoard</Link></p>
-                    <p><Link to="">Twist & Co.</Link></p>
+                    <p><Link to="/Enabling_Engineering/X-Max#CAD">X-Max</Link></p>
+                    <p><Link to="/Enabling_Engineering/FITBoard#CAD">FITBoard</Link></p>
+                    <p><Link to="/Projects/Twist&Co#CAD">Twist & Co.</Link></p>
                     <p><Link to="">Bookshelf</Link></p>
                 </Collapsible>
                 <Collapsible trigger="Videography">
