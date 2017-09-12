@@ -9,13 +9,9 @@ export default class MainLayout extends React.Component {
     render() {
         return (
             <div>
-                <div className="row">
-                    <div className="col-3">
-                        {this.props.children[0]}
-                    </div>
-                    <div className="col-9">
-                        {this.props.children[1]}
-                    </div>
+                {this.props.children[0]}
+                <div className="container">
+                    {this.props.children[1]}
                 </div>
                 {this.props.children[2]}
             </div>
