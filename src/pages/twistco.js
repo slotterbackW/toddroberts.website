@@ -4,12 +4,12 @@ import MainLayout from './../components/main-layout.js'
 import Nav from './../components/nav.js'
 import Footer from './../components/footer.js'
 
-import twistcoLogo from './../assets/twistco/twistCoLogo.png'
-import twistcoMovie from './../assets/twistco/Twist & Co Demo.mp4'
-import nestedLevels from './../assets/twistco/Nested Levels.JPG'
-import compressedTwist from './../assets/twistco/compressed-twist.jpg'
-import fullyExtended from './../assets/twistco/fully-extended-twist.jpg'
-import fullyExtendedBottom from './../assets/twistco/fully-extended-bottom-twist.JPG'
+import twistcoLogo from '../assets/twistco/twistCoLogo.png'
+import twistcoMovie from '../assets/twistco/Twist & Co Demo.mp4'
+import nestedLevels from '../assets/twistco/Nested Levels.JPG'
+import compressedTwist from '../assets/twistco/compressed-twist.jpg'
+import fullyExtended from '../assets/twistco/fully-extended-twist.jpg'
+import fullyExtendedBottom from '../assets/twistco/fully-extended-bottom-twist.JPG'
 
 export default class TwistCo extends Component {
   render() {
