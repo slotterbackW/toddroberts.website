@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 
-import MainLayout from './../components/main-layout.js'
-import Nav from './../components/nav.js'
-import Footer from './../components/footer.js'
+import ComingSoon from './../components/coming-soon.js'
 
 export default class NAVAIR extends Component {
   render() {
     return (
-      <MainLayout>
-        <Nav/>
-        <p>NAVAIR</p>
-        <Footer/>
-      </MainLayout>
+      <ComingSoon />
     );
   }
 }

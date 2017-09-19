@@ -22,6 +22,12 @@
     margin: 10px;
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 img {
     margin: 2rem 0;
     align-self: center;
