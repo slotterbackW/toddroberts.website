@@ -16,7 +16,7 @@ export default class TwistCo extends Component {
     return (
       <MainLayout>
         <Nav/>
-        <div className="main">
+        <div className="main" id="top">
         <div className="title-container">
           <img src={twistcoLogo} width="25%"/>
           <p className="subtitle">Fall 2016<span className="vertical-seperator"></span>VP Engineering</p>

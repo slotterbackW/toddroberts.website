@@ -13,7 +13,7 @@ export default class FITBoard extends Component {
     return (
       <MainLayout>
       <Nav/>
-      <div className="main">
+      <div className="main" id="top">
         <div className="title-container">
           <h1>FITBoard</h1>
           <p className="subtitle">September 2016 - Present <span className="vertical-seperator"></span> Mechanical Design Engineer</p>

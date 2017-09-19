@@ -21,7 +21,7 @@ export default class XMax extends Component {
     return (
       <MainLayout>
         <Nav/>
-        <div className="main">
+        <div className="main" id="top">
           <div className="title-container">
             <h1>X-Max Game Controller</h1>
             <p className="subtitle">January 2016 - Present <span className="vertical-seperator"></span> Project Leader and Mechanical Design Engineer</p>

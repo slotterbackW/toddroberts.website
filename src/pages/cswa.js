@@ -17,7 +17,7 @@ export default class CSWA extends Component {
     return (
       <MainLayout>
       <Nav/>
-      <div className="main">
+      <div className="main" id="top">
           <div className="title-container">
             <h1>CSWA Certification</h1>
             <p className="subtitle">December 5th 2015 <span className="vertical-seperator"></span> CSWA Certified</p>
