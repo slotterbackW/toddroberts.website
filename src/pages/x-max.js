@@ -33,10 +33,10 @@ export default class XMax extends Component {
           <img src={XMaxTeam} alt="The team working on Xmax" width="90%"/>
           <div className="row">
             <div className="col-6">
-              <img src={XMaxBefore} alt="XMax in its raw stage"/>
+              <img src={XMaxBefore} alt="XMax in its raw stage" width="100%"/>
             </div>
             <div className="col-6">
-              <img src={XMaxAfter} alt="XMax in its more final form"/>
+              <img src={XMaxAfter} alt="XMax in its more final form" width="100%"/>
             </div>
           </div>
           <p>This project is just one of the many student projects in the university club, Enabling Engineering. To learn more about our club, you can visit <a href="http://nuweb9.neu.edu/enable/" target="_blank" rel="noopener noreferrer">this website</a> or check out <a href="https://www.facebook.com/EnablingEngineering/" target="_blank" rel="noopener noreferrer">the Facebook page</a>.</p>
