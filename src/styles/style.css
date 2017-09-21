@@ -38,3 +38,16 @@ video {
     margin: 2rem 0;
     align-self: center;
 }
+
+/* Override some react-responsive-carousel styles */
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black !important;
+}
+
+.carousel .control-dots .dot {
+    background: black !important;
+}

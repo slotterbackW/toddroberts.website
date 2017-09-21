@@ -6,6 +6,7 @@ import { Carousel } from 'react-responsive-carousel'
 import Footer from './../components/footer.js'
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import './../styles/style.css'
 
 import MaxMadden from './../assets/XMax/Max Playing Madden_1920.jpg'
 import XMaxTeam from './../assets/XMax/XMax Team_1920.jpg'
