@@ -18,7 +18,7 @@ export default class TwistCo extends Component {
         <Nav/>
         <div className="main" id="top">
         <div className="title-container">
-          <img src={twistcoLogo} width="25%" alt="Twist & Co Logo"/>
+          <img src={twistcoLogo} width="22%" alt="Twist & Co Logo"/>
           <p className="subtitle">Fall 2016<span className="vertical-seperator"></span>VP Engineering</p>
         </div>
         <video width="90%" controls>
