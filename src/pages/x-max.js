@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 import MainLayout from './../components/main-layout.js'
 import Nav from './../components/nav.js'
 import { Carousel } from 'react-responsive-carousel'
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Footer from './../components/footer.js'
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 import MaxMadden from './../assets/XMax/Max Playing Madden_1920.jpg'
 import XMaxTeam from './../assets/XMax/XMax Team_1920.jpg'

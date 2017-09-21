@@ -41,7 +41,7 @@ export default class CSWA extends Component {
             </div>
           </div>
           <div className="flex-center">
-            <iframe src={CSWACertificationPDF} alt="CSWA Certification PDF" height="600px" width="80%"></iframe>
+            <iframe src={CSWACertificationPDF} alt="CSWA Certification PDF" height="600px" width="80%" title="CSWA Certification"></iframe>
           </div>
         </div>
       <Footer/>
