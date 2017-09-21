@@ -1,15 +1,19 @@
 import React from 'react'
 
+import { slide as Menu } from 'react-burger-menu'
 import Collapsible from 'react-collapsible';
 import { Link } from 'react-router'
 
 import './../styles/nav.css'
 
 export default class Nav extends React.Component {
+    showSettings (event) {
+        event.preventDefault();
+    }
     render() {
         return (
-            <div className="nav">
-                <Link to="/"><img alt="Todd's Logo" className="nav__logo" src="http://placehold.it/100x100"/></Link>
+            <Menu>
+                <Link to="/"><span className="nav-link">Home</span></Link>
                 <Collapsible trigger="Professional Experience">
                     <p><Link to="/Professional_Experience/Tesla">Tesla Inc.</Link></p>
                     <p><Link to="/Professional_Experience/DOTS">DOTS Technology Corp</Link></p>
@@ -37,7 +41,7 @@ export default class Nav extends React.Component {
                     <p><Link to="/Videography/Enabling_Engineering">Enabling Engineering</Link></p>
                     <p><Link to="/Videography/TEDx_Boulder">TEDx Boulder</Link></p>
                 </Collapsible>
-            </div>
+            </Menu>
         )
     }
 }

@@ -26,17 +26,17 @@ export default class CSWA extends Component {
           <div className="row">
             <div className="col-4">
               <Link to="/Enabling_Engineering/X-Max#CAD">
-                <img src={XMaxImg} alt="XMax CAD Image" width="100%"/>
+                <img src={XMaxImg} alt="XMax CAD" width="100%"/>
               </Link>
             </div>
             <div className="col-4">
               <Link to="/Projects/Twist&Co#CAD" className="flex-center">
-                <img src={TwistCoImg} alt="Twist & Co CAD Image" width="63%"/>
+                <img src={TwistCoImg} alt="Twist & Co CAD" width="63%"/>
               </Link>
             </div>
             <div className="col-4">
               <Link to="/Enabling_Engineering/FITBoard#CAD" className="flex-center">
-                <img src={FITBoardImg} alt="FITBoard CAD Image" width="94%"/>
+                <img src={FITBoardImg} alt="FITBoard CAD" width="94%"/>
               </Link>
             </div>
           </div>

@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    position: fixed;
     left: 2rem;
 }
 
@@ -10,30 +9,96 @@
     margin: 10px;
 }
 
+.nav-link {
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  color: #D8C99B;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+  color: #A42438
+}
+
 .Collapsible__trigger {
     font-size: large;
     font-weight: bold;
     cursor: pointer;
+    border-bottom: 1px solid transparent;
+    color: #D8C99B;
 }
 
 .Collapsible__trigger:hover {
-
+  border-color: #A42438
 }
 
 .Collapsible__contentOuter {
     padding-left: 12px; 
 }
 
+.Collapsible__contentInner p {
+  margin: 0;
+}
+
 .Collapsible__contentInner a {
     font-size: 1rem;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-}
-
-.Collapsible__contentInner p {
-    margin: 0;
+    color: #D8C99B;
 }
 
 .Collapsible__contentInner a:hover {
-    border-color: #A42438
+    font-weight: 700;
+    color: #A42438
 }
+
+/* React Burger Nav Styles */
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #273E47;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #D8C99B;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #273E47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    overflow: hidden !important;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #273E47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #D8C99B !important;
+    padding: 0.8em;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
