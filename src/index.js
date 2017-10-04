@@ -5,6 +5,7 @@ import './styles/simple-grid.css'
 import './styles/style.css'
 
 import Home from './pages/home.js'
+import Resume from './pages/resume.js'
 import DOTS from './pages/dots.js'
 import NAVAIR from './pages/navair.js'
 import Tesla from './pages/tesla.js'
@@ -38,6 +39,7 @@ const hashLinkScroll = () => {
 const routes = (
     <Router history={browserHistory} onUpdate={hashLinkScroll}>
         <Route path="/" component={Home}/>
+        <Route path="/Resume" component={Resume}/>
         <Route path="/Professional_Experience/DOTS" component={DOTS}/>
         <Route path="/Professional_Experience/NAVAIR" component={NAVAIR}/>
         <Route path="/Professional_Experience/Tesla" component={Tesla}/>
