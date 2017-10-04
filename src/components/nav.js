@@ -14,11 +14,6 @@ export default class Nav extends React.Component {
         return (
             <Menu>
                 <Link to="/"><span className="nav-link">Home</span></Link>
-                <Collapsible trigger="Professional Experience">
-                    <p><Link to="/Professional_Experience/Tesla">Tesla Inc.</Link></p>
-                    <p><Link to="/Professional_Experience/DOTS">DOTS Technology Corp</Link></p>
-                    <p><Link to="/Professional_Experience/NAVAIR">NAVAIR</Link></p>
-                </Collapsible>
                 <Collapsible trigger="Enabling Engineering">
                     <p><Link to="/Enabling_Engineering/X-Max#top">X-Max</Link></p>
                     <p><Link to="/Enabling_Engineering/FITBoard#top">FITBoard</Link></p>
