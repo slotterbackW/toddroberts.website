@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
+
 import ComingSoon from './../components/coming-soon.js'
 
-export default class EnablingVideography extends Component {
-  render() {
-    return (
-        <ComingSoon />
-    );
-  }
-}
+const EnablingVideography = (props) => (
+  <ComingSoon />
+)
+
+export default EnablingVideography;

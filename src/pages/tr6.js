@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
 
 import ComingSoon from './../components/coming-soon.js'
 
-export default class TR6 extends Component {
-  render() {
-    return (
-      <ComingSoon />
-    );
-  }
-}
+const TR6 = (props) => (
+  <ComingSoon />
+)
+
+export default TR6

@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
 
 import ComingSoon from './../components/coming-soon.js'
 
-export default class DOTS extends Component {
-  render() {
-    return (
-      <ComingSoon />
-    );
-  }
-}
+const DOTS = (props) => (
+  <ComingSoon />
+)
+
+export default DOTS
