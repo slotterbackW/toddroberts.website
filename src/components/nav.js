@@ -36,7 +36,7 @@ export default class Nav extends React.Component {
                     <p><Link to="/Videography/Enabling_Engineering">Enabling Engineering</Link></p>
                     <p><Link to="/Videography/TEDx_Boulder">TEDx Boulder</Link></p>
                 </Collapsible>
-                <Link to="/Resume"><span className="nav-link">Resum&eacute;</span></Link>
+                <Link to="/Resume#top"><span className="nav-link">Resum&eacute;</span></Link>
             </Menu>
         )
     }
