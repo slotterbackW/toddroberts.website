@@ -39,6 +39,11 @@ video {
     align-self: center;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 a:hover {
     color: #A42438;
 }
