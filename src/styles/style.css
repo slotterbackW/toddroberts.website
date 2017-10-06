@@ -48,6 +48,18 @@ a:hover {
     color: #A42438;
 }
 
+.margin-0 {
+    margin: 0 !important;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.padding-l-r-25 {
+    padding: 0 2rem;
+}
+
 /* Override some react-responsive-carousel styles */
 .carousel .control-next.control-arrow:before {
     border-left: 8px solid black !important;

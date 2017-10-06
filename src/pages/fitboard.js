@@ -7,13 +7,22 @@ import Footer from './../components/footer.js'
 import FITBoardHeader from './../assets/FITBoard/FITBoard_img1.jpeg'
 import FITBoardCAD from './../assets/FITBoard/FITBoard_CAD.JPG'
 import FITBoardProduct from './../assets/FITBoard/FITBoard_product.jpeg'
+import FITBoardLogo from './../assets/FITBoard/fitboard_logo.png'
+import RegameLogo from './../assets/FITBoard/regame_logo.png'
+import EnablingLogo from './../assets/FITBoard/enabling_engineering_logo.png'
+
 
 const FITBoard = (props) => (
   <MainLayout>
     <Nav/>
     <div className="main" id="top">
       <div className="title-container">
-        <h1>FITBoard</h1>
+        <ul className="inline margin-0">
+          <li className="padding-l-r-25"><img className="margin-0" src={FITBoardLogo} alt="FITBoard Logo" width="100%"/></li>
+          <li className="padding-l-r-25"><img className="margin-0" src={RegameLogo} alt="Regame Laboratory Logo" width="100%"/></li>
+          <li className="padding-l-r-25"><img className="margin-0" src={EnablingLogo} alt="Enabling Engineering Logo" width="100%"/></li>
+        </ul>
+        <h1>Fun Interactive Therapy Board</h1>
         <p className="subtitle">September 2016 - Present <span className="vertical-seperator"></span> Mechanical Design Engineer</p>
       </div>
       <img src={FITBoardHeader} alt='A young child using FITBoard' width="60%"/>
