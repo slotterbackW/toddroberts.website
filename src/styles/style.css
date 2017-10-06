@@ -39,6 +39,10 @@ video {
     align-self: center;
 }
 
+a:hover {
+    color: #A42438;
+}
+
 /* Override some react-responsive-carousel styles */
 .carousel .control-next.control-arrow:before {
     border-left: 8px solid black !important;
