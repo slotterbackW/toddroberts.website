@@ -33,8 +33,8 @@ export default class Nav extends React.Component {
                     <p><Link to="/Projects/Furniture#CAD">Bookshelf</Link></p>
                 </Collapsible>
                 <Collapsible trigger="Videography">
-                    <p><Link to="/Videography/Enabling_Engineering">Enabling Engineering</Link></p>
-                    <p><Link to="/Videography/TEDx_Boulder">TEDx Boulder</Link></p>
+                    <p><Link to="/Videography/Enabling_Engineering#top">Enabling Engineering</Link></p>
+                    <p><Link to="/Videography/TEDx_Boulder#top">TEDx Boulder</Link></p>
                 </Collapsible>
                 <Link to="/Resume#top"><span className="nav-link">Resum&eacute;</span></Link>
             </Menu>
