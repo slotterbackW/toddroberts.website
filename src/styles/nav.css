@@ -53,6 +53,16 @@
     color: #A42438
 }
 
+.author-link {
+  position: absolute;
+  bottom: 2rem;
+  font-size: .75rem;
+}
+
+.author-link * {
+  color: #BDC3C7;
+}
+
 /* React Burger Nav Styles */
 /* Position and sizing of burger button */
 .bm-burger-button {
