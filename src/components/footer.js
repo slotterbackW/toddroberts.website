@@ -23,7 +23,7 @@ const Footer = (props) => (
             <div className="col-6">
                 <h3>Find out more</h3>
                 <ul>  
-                    <li><a href="linkedin.com/in/todd-roberts-1ab973115">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/todd-roberts-1ab973115" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     <li><Link to="/Resume#top"><span>Resum&eacute;</span></Link></li>
                 </ul>
                 <h3>Contact Me</h3>
