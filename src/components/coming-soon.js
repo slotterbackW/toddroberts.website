@@ -7,7 +7,7 @@ import { Link } from 'react-router'
 
 import './../styles/coming-soon.css'
 
-const CSWA = (props) => (
+const ComingSoon = (props) => (
   <MainLayout>
     <Nav/>
     <div className="coming-soon-container">
@@ -19,4 +19,4 @@ const CSWA = (props) => (
   </MainLayout>
 )
 
-export default CSWA;
+export default ComingSoon;
