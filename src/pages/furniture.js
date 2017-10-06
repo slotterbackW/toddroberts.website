@@ -32,7 +32,7 @@ const Furniture = (props) => (
         </video>
       </div>
     </div>
-    <h2>Book Shelf</h2>
+    <h2 id="CAD">Bookshelf</h2>
     <p>My Boston apartment has some rather interesting ceiling architecture and is not conducive to traditional IKEA furniture. Instead of leaving my things piled on the floor, I designed and built a bookshelf that would fit the tight triangular space next to my desk. I measured the space and then used Solidworks to visualize and design how my shelf was going to fit.</p>
     <div className="row">
       <div className="col-7">

@@ -20,17 +20,17 @@ export default class Nav extends React.Component {
                 </Collapsible>
                 <Collapsible trigger="Personal Projects">
                     <p><Link to="/Projects/Twist&Co#top">Twist & Co.</Link></p>
-                    <p><Link to="/Projects/Furniture">Furniture</Link></p>
-                    <p><Link to="/Projects/Skateboards">Skateboards</Link></p>
-                    <p><Link to="/Projects/Video_Equipment">Video Equipment</Link></p>
-                    <p><Link to="/Projects/TR-6">Triumph TR-6</Link></p>
+                    <p><Link to="/Projects/Furniture#top">Furniture</Link></p>
+                    <p><Link to="/Projects/Skateboards#top">Skateboards</Link></p>
+                    <p><Link to="/Projects/Video_Equipment#top">Video Equipment</Link></p>
+                    <p><Link to="/Projects/TR-6#top">Triumph TR-6</Link></p>
                 </Collapsible>
                 <Collapsible trigger="CAD Samples">
                     <p><Link to="/CAD_Samples/CSWA_Certification#top">CSWA Certification</Link></p>
                     <p><Link to="/Enabling_Engineering/X-Max#CAD">X-Max</Link></p>
                     <p><Link to="/Enabling_Engineering/FITBoard#CAD">FITBoard</Link></p>
                     <p><Link to="/Projects/Twist&Co#CAD">Twist & Co.</Link></p>
-                    <p><Link to="/CAD_Samples/Bookshelf">Bookshelf</Link></p>
+                    <p><Link to="/Projects/Furniture#CAD">Bookshelf</Link></p>
                 </Collapsible>
                 <Collapsible trigger="Videography">
                     <p><Link to="/Videography/Enabling_Engineering">Enabling Engineering</Link></p>

@@ -18,7 +18,6 @@ import TwistCo from './pages/twistco.js'
 import VideoEquipment from './pages/video-equipment.js'
 import XMax from './pages/x-max.js'
 import CSWA from './pages/cswa.js'
-import Bookshelf from './pages/bookshelf.js'
 import EnablingEngineering from './pages/enabling-videography.js'
 import TEDxBoulder from './pages/tedx-boulder.js'
 
@@ -52,7 +51,6 @@ const routes = (
         <Route path="/Projects/Twist&Co" component={TwistCo}/>
         <Route path="/Projects/Video_Equipment" component={VideoEquipment}/>
         <Route path="/CAD_Samples/CSWA_Certification" component={CSWA}/>
-        <Route path="/CAD_Samples/Bookshelf" component={Bookshelf}/>
         <Route path="/Videography/Enabling_Engineering" component={EnablingEngineering}/>
         <Route path="/Videography/TEDx_Boulder" component={TEDxBoulder}/>
         <Route path="*" component={Home}/>
