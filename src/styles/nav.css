@@ -29,6 +29,11 @@
     color: #D8C99B;
 }
 
+.Collapsible__trigger:hover::after {
+    content: '\25bc';
+    padding-left: 0.5em;
+}
+
 .Collapsible__trigger:hover {
   border-color: #A42438
 }

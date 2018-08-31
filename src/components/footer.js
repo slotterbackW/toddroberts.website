@@ -26,7 +26,7 @@ const Footer = (props) => (
                     <li><a href="https://www.linkedin.com/in/todd-roberts-1ab973115" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     <li><Link to="/Resume#top"><span>Resum&eacute;</span></Link></li>
                 </ul>
-                <h3>Contact Me</h3>
+                <h3 className="m-t-2r">Contact Me</h3>
                 <a href="mailto:roberts.to@husky.neu.edu">roberts.to@husky.neu.edu</a>
             </div>
         </div>

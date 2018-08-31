@@ -17,7 +17,7 @@ const TwistCo = (props) => (
     <div className="main" id="top">
     <div className="title-container">
       <img src={twistcoLogo} width="22%" alt="Twist & Co Logo"/>
-      <p className="subtitle">Fall 2016<span className="vertical-seperator"></span>VP Engineering</p>
+      <p className="subtitle">Fall 2016<span className="vertical-seperator"></span>Lead Engineer</p>
     </div>
     <video width="90%" controls>
       <source src={twistcoMovie} type="video/mp4"/>
