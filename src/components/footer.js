@@ -8,7 +8,7 @@ const Footer = (props) => (
         <div className="container">
             <div className="col-6">
                 <h3>Projects</h3>
-                <ul>  
+                <ul>
                     <li><Link to="/Enabling_Engineering/X-Max#top">X-Max</Link></li>
                     <li><Link to="/Enabling_Engineering/FITBoard#top">FITBoard</Link></li>
                     <li><Link to="/Projects/Twist&Co#top">Twist & Co.</Link></li>
@@ -22,9 +22,9 @@ const Footer = (props) => (
             </div>
             <div className="col-6">
                 <h3>Find out more</h3>
-                <ul>  
+                <ul>
                     <li><a href="https://www.linkedin.com/in/todd-roberts-1ab973115" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><Link to="/Resume#top"><span>Resum&eacute;</span></Link></li>
+                    <li><Link to="/CV#top"><span>Curriculum Vitae</span></Link></li>
                 </ul>
                 <h3 className="m-t-2r">Contact Me</h3>
                 <a href="mailto:roberts.to@husky.neu.edu">roberts.to@husky.neu.edu</a>
