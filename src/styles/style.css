@@ -78,6 +78,11 @@ a:hover {
   justify-content: center;
 }
 
+.skill-list {
+  padding-left: 3rem;
+  list-style: disc;
+}
+
 /* Override some react-responsive-carousel styles */
 .carousel .control-next.control-arrow:before {
     border-left: 8px solid black !important;
