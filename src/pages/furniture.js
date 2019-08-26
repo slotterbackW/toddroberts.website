@@ -17,7 +17,7 @@ const Furniture = (props) => (
       <h1>Custom Furniture</h1>
     </div>
     <h2>Wall Hanging Chair</h2>
-    <p>In my senior of high school I took Design and Engineering, a class where we were tasked with designing an affordable, foldable, and functional chair. We had to work with a partner to design the chair and then create a presentation, which included a price break down and feasibility analysis to convince our professor to allow us to build it . Then we created full scale technical drawings, multiple prototypes, and finally the finished product shown below. During this project I gained more hands on assembly experience and a better understanding of the engineering design process.</p>
+    <p>In my senior year of high school I took Design and Engineering, a class where we were tasked with designing an affordable, foldable, and functional chair. We had to work with a partner to design the chair and then create a presentation, which included a price break down and feasibility analysis to convince our professor to allow us to build it . Then we created full scale technical drawings, multiple prototypes, and finally the finished product shown below. During this project I gained more hands on assembly experience and a better understanding of the engineering design process.</p>
     <div className="row">
       <div className="col-6">
         <video width="90%" controls>

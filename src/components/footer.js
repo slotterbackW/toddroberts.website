@@ -27,7 +27,7 @@ const Footer = (props) => (
                     <li><Link to="/CV#top"><span>Curriculum Vitae</span></Link></li>
                 </ul>
                 <h3 className="m-t-2r">Contact Me</h3>
-                <a href="mailto:roberts.to@husky.neu.edu">roberts.to@husky.neu.edu</a>
+                <a href="mailto:todd_roberts@berkeley.edu">todd_roberts@berkeley.edu</a>
             </div>
         </div>
     </div>

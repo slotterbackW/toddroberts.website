@@ -29,17 +29,12 @@
     color: #D8C99B;
 }
 
-.Collapsible__trigger:hover::after {
-    content: '\25bc';
-    padding-left: 0.5em;
-}
-
 .Collapsible__trigger:hover {
   border-color: #A42438
 }
 
 .Collapsible__contentOuter {
-    padding-left: 12px; 
+    padding-left: 12px;
 }
 
 .Collapsible__contentInner p {
@@ -77,23 +72,23 @@
     left: 36px;
     top: 36px;
   }
-  
+
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #273E47;
   }
-  
+
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
     width: 24px;
   }
-  
+
   /* Color/shape of close button cross */
   .bm-cross {
     background: #D8C99B;
   }
-  
+
   /* General sidebar styles */
   .bm-menu {
     background: #273E47;
@@ -101,18 +96,18 @@
     font-size: 1.15em;
     overflow: hidden !important;
   }
-  
+
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
     fill: #273E47;
   }
-  
+
   /* Wrapper for item list */
   .bm-item-list {
     color: #D8C99B !important;
     padding: 0.8em;
   }
-  
+
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);

@@ -1,11 +1,11 @@
 .main {
     padding-top: 60px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .title-container {
-    margin-bottom: 0.67em; 
+    margin-bottom: 0.67em;
 }
 
 .title-container h1 {
@@ -59,6 +59,23 @@ a:hover {
 
 .padding-l-r-25 {
     padding: 0 2rem;
+}
+
+.featured-project-link > img {
+  margin: 1rem 0;
+}
+
+.featured-project-link > h3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.caption {
+  font-size: .75rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* Override some react-responsive-carousel styles */

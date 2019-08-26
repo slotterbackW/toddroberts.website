@@ -5,10 +5,12 @@ import './styles/simple-grid.css'
 import './styles/style.css'
 
 import Home from './pages/home.js'
+import SeniorCapstone from './pages/seniorcapstone.js'
 import CV from './pages/cv.js'
-import DOTS from './pages/dots.js'
-import NAVAIR from './pages/navair.js'
-import Tesla from './pages/tesla.js'
+import Pointdexter from './pages/pointdexter.js'
+// import DOTS from './pages/dots.js'
+// import NAVAIR from './pages/navair.js'
+// import Tesla from './pages/tesla.js'
 import FitBoard from './pages/fitboard.js'
 import Furniture from './pages/furniture.js'
 import PosturalReaching from './pages/postural-reaching.js'
@@ -38,10 +40,15 @@ const hashLinkScroll = () => {
 const routes = (
     <Router history={browserHistory} onUpdate={hashLinkScroll}>
         <Route path="/" component={Home}/>
+        <Route path="/Senior_Capstone" component={SeniorCapstone}/>
         <Route path="/CV" component={CV}/>
-        <Route path="/Professional_Experience/DOTS" component={DOTS}/>
-        <Route path="/Professional_Experience/NAVAIR" component={NAVAIR}/>
-        <Route path="/Professional_Experience/Tesla" component={Tesla}/>
+        <Route path="/Professional_Experience/Liberating_Technologies_Inc/Pointdexter" component={Pointdexter}/>
+        {
+          // Not ready yet
+          // <Route path="/Professional_Experience/DOTS" component={DOTS}/>
+          // <Route path="/Professional_Experience/NAVAIR" component={NAVAIR}/>
+          // <Route path="/Professional_Experience/Tesla" component={Tesla}/>
+        }
         <Route path="/Enabling_Engineering/FitBoard" component={FitBoard}/>
         <Route path="/Enabling_Engineering/X-Max" component={XMax}/>
         <Route path="/Projects/Furniture" component={Furniture}/>
