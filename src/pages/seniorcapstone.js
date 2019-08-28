@@ -54,7 +54,7 @@ const SeniorCapstone = (props) => (
       <img src={PMotion2} alt="2nd iteration of Peristaltic Motion" height="50%" />
       <p>To move the peristaltic constriction mechanism along the stomach bag, I designed the device to be mounted about a pivot point at the center of the ark of curvature of the stomach. A linear actuator was attached to a lever arm on the same shaft to move the peristaltic mechanism along the bottom 150mm of the stomach, as indicated by the literature. I used a kinematic sketch in solidworks to determine the proper attachment points for the linear actuator. I developed motion profiles that related the linear speed of the actuator to the rate at which the peristaltic wave would move down the stomach. These profiles were then implemented in the control of our system via Python. The linear actuator and subsequent rotational motion are illustrated in the image below.</p>
       <img src={Propagation} alt="Propagation" width="50%" />
-      <h2>Stomach Bug</h2>
+      <h2>Stomach Bag</h2>
       <p>A major part of this project was developing an enclosure that was anatomically representative of the human stomach. The dimensions of the desired stomach bag were defined during our literature review at the beginning of the project. I used these dimensions to design a CAD model of the stomach core. The mold was then designed around this model.</p>
       <p>Several mold designs were considered, but eventually a split mold with a datumed core was determined to be the best choice. The CAD model (left) and finished product (right) can be seen in the image below.</p>
       <img src={StomachMold} alt="Stomach Mold" width="80%" />
